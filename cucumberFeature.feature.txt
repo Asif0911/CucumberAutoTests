@@ -1,0 +1,10 @@
+Feature: Note pad application
+
+As a User 
+I want to write some text on notepad editer
+so that I can save my work 
+
+Scenario: Note pad application
+Given I Installed Notepad appliation 
+When I type some text
+Then It should save my work
